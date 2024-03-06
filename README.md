@@ -1,10 +1,14 @@
-# Welcome to Remix!
-
-- [Remix Docs](https://remix.run/docs)
+# Progress Indicator Project
 
 ## Development
 
 From your terminal:
+
+```sh
+npm install
+```
+
+This installs all dependencies for the project.
 
 ```sh
 npm run dev
@@ -12,27 +16,10 @@ npm run dev
 
 This starts your app in development mode, rebuilding assets on file changes.
 
-## Deployment
+## Application Screenshots
 
-First, build your app for production:
-
-```sh
-npm run build
-```
-
-Then run the app in production mode:
-
-```sh
-npm start
-```
-
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `remix build`
-
-- `build/`
-- `public/build/`
+![Splash screen](image.png)
+![Blue](image-1.png)
+![Yellow](image-2.png)
+![Green](image-3.png)
+![Steps screen](image-4.png)
